@@ -17,7 +17,7 @@ to install
 
      cd AZ-Unlimitedx
 
-     pip install -r requirements. txt
+     pip install -r requirements.txt
 
      python3 main.py
 
