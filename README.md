@@ -12,3 +12,14 @@ to install this:-
 
 ![1000113517](https://github.com/aritrasa45/AZ-Unlimitedx/assets/143035320/8852d47b-90e6-4595-a194-946891d0a2c7)
 
+
+$ git clone https://github.com/aritrasa45/AZ-Unlimitedx.git
+
+$ cd AZ-Unlimitedx
+
+$ python3 main.py
+
+
+           enjoy
+
+
