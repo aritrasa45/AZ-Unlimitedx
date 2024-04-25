@@ -7,19 +7,19 @@ for ex- if any user wants to print 1 to 10,000 then its impossible to write sing
 
 
 
-
-to install this:-
+working on termux or any other terminal
 
 ![1000113517](https://github.com/aritrasa45/AZ-Unlimitedx/assets/143035320/8852d47b-90e6-4595-a194-946891d0a2c7)
 
+to install 
 
-$ git clone https://github.com/aritrasa45/AZ-Unlimitedx.git
+        git clone https://github.com/aritrasa45/AZ-Unlimitedx.git
 
-$ cd AZ-Unlimitedx
+     cd AZ-Unlimitedx
 
-$ python3 main.py
+    python3 main.py
 
 
-           enjoy
+enjoy
 
 
