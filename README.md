@@ -22,7 +22,7 @@
      python3 main.py
 
 
- ### To Update 👇
+ ###  Update Reposetory 👇
 
           git pull
 
