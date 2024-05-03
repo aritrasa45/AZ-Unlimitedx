@@ -22,11 +22,11 @@
      python3 main.py
 
 
- ### To Update
+ ### To Update 👇
 
           git pull
 
 
 
-To complain about any bugs and errors [TElegram/Aritrasa](https://t.me/zsxxsz1).
+To complain about any bugs and errors [Telegram/Aritrasa](https://t.me/zsxxsz1).
 
