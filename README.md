@@ -3,7 +3,7 @@
 
 
 
-## Its a tool for genereating numbers accoding to users requirements. 😬😲
+## Its a tool for genereating numbers accoding to users requirements..It is entirely coded on python, by aritrasa
 
 
 > [!IMPORTANT]
