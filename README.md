@@ -1,17 +1,17 @@
 
-# AZ-Unlimitedx
-Its a tool for genereating numbers accoding to users requirements.
-
-
-for ex- if any user wants to print 1 to 10,000 then its impossible to write single numbers, so thats why its important to use a tool like this
+# AZ-Unlimitedx 🤩
 
 
 
-working on termux or any other terminal
+## Its a tool for genereating numbers accoding to users requirements. 😬😲
 
-![1000113517](https://github.com/aritrasa45/AZ-Unlimitedx/assets/143035320/8852d47b-90e6-4595-a194-946891d0a2c7)
 
-to install 
+> [!IMPORTANT]
+> updates coming soon, stay active 👋
+
+
+
+### to install ✌️👇
 
         git clone https://github.com/aritrasa45/AZ-Unlimitedx.git
 
@@ -22,6 +22,11 @@ to install
      python3 main.py
 
 
-enjoy
+ ### To Update
 
+          git pull
+
+
+
+To complain about any bugs and errors [TElegram/Aritrasa](https://t.me/zsxxsz1).
 
