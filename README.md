@@ -7,8 +7,8 @@
 
 
 > [!IMPORTANT]
-> ### major bug fixes
-> ### added delay option for slow printing
+<li> major bug fixes
+<li> added delay option for slow printing
 
 
 
