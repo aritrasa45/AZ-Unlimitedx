@@ -3,16 +3,17 @@
 
 
 
-## Its a tool for genereating numbers accoding to users requirements..It is entirely coded on python, by aritrasa
+### Its a tool for genereating numbers accoding to users requirements..It is entirely coded on python, by aritrasa
 
 
 > [!IMPORTANT]
+> whats new?
 <li> major bug fixes
 <li> added delay option for slow printing
 
 
 
-### to install ✌️👇
+ <li> to install ✌️👇
 
         git clone https://github.com/aritrasa45/AZ-Unlimitedx.git
 
@@ -23,7 +24,8 @@
      python3 main.py
 
 
- ###  Update Reposetory 👇
+
+<li> Update Reposetory 👇
 
           git pull
 
