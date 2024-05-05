@@ -7,7 +7,8 @@
 
 
 > [!IMPORTANT]
-> 
+> ### major bug fixes
+> ### added delay option for slow printing
 
 
 
@@ -17,7 +18,7 @@
 
      cd AZ-Unlimitedx
 
-     pip install -r requirements.txt
+     pip -r install requirements.txt
 
      python3 main.py
 
