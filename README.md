@@ -1,5 +1,5 @@
 
-# AZ-Unlimitedx v1 🤩
+# AZ-Unlimitedx v2 🤩
 
 
 
@@ -7,7 +7,7 @@
 
 
 > [!IMPORTANT]
-> updates coming soon, stay active 👋
+> 
 
 
 
