@@ -13,7 +13,8 @@
 
 
 
- <li> to install ✌️👇
+ 
+ # to install ✌️👇
 
         git clone https://github.com/aritrasa45/AZ-Unlimitedx.git
 
@@ -25,7 +26,7 @@
 
 
 
-<li> Update Reposetory 👇
+# Update Reposetory 👇
 
           git pull
 
