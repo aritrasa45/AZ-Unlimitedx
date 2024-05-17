@@ -1,3 +1,4 @@
+#made by aritrasa.Redphoenix(co-lead)
 import time
 from colorama import Fore,Style, Back, init
 
