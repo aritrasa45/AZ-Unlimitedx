@@ -1,4 +1,4 @@
-mport time
+import time
 from colorama import Fore,Style, Back, init
 
 init()
