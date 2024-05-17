@@ -1,8 +1,17 @@
 
 # AZ-Unlimitedx v2 🤩
 <h1>
-This code is a simple number generator program that allows the user to input a starting number and how many numbers they want to print. Here is a breakdown of the code:
+This code is a simple number generator program that allows the user to input a starting number and how many numbers they want to print.
 </h1>
+
+<h2>Usage of it? -🦸</h2>
+
+<li>In summary, this program is a simple interactive number generator that allows the user to specify a starting number and how many numbers they want to print. It provides colorful output using the colorama library and includes error handling for incorrect user inputs.</li>
+
+<li>Overall, this code is a simple but functional number generator program. It can be used to generate a sequence of numbers for various purposes, such as testing or debug</li>
+</h2>
+
+<h3>Breakdown of the code -🥌</h3>
 
 1. The code uses the time module for time-related functions and the colorama library for adding color to the output.
 
@@ -21,23 +30,20 @@ This code is a simple number generator program that allows the user to input a s
 8. If the user input is 'y', it calls the print_opreation function to generate and print the numbers starting from the given starting number.
 
 
-## In summary, this program is a simple interactive number generator that allows the user to specify a starting number and how many numbers they want to print. It provides colorful output using the colorama library and includes error handling for incorrect user inputs.
-<h1>
-Overall, this code is a simple but functional number generator program. It can be used to generate a sequence of numbers for various purposes, such as testing or debug
-
-</h1>
 
 
 
-> [!IMPORTANT]
-> Warning: This GitHub repository is protected by the GNU General Public License (GPL) license. This means that copying or using the contents of this repository without proper permission is strictly prohibited. Any unauthorized use may be subject to legal action. Please respect the terms of the GPL license and seek permission from the repository owner before utilizing any code or materials from this repository.
+
+> [!WARNING]
+> Warning: This GitHub repository is protected by the GNU General Public License (GPL) license. This means that copying the contents of this repository without proper permission is strictly prohibited. Any unauthorized use may be subject to legal action. Please respect the terms of the GPL license and seek permission from the repository owner before utilizing any code or materials from this repository.
 
 
 
 To contract admin for usage and permission[Telegram](https://telegram.me/zsxxsz1)
 
 
-
+> [!IMPORTANT]
+> Its currently in early stage, new updates are coming soon!
 
 
  
@@ -59,5 +65,9 @@ To contract admin for usage and permission[Telegram](https://telegram.me/zsxxsz1
 
 
 
-To complain about any bugs and errors [Telegram/Aritrasa](https://t.me/zsxxsz1).
+       
+
+
+
+
 
