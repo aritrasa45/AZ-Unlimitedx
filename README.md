@@ -9,7 +9,6 @@
 > [!IMPORTANT]
 > whats new?
 <li> major bug fixes
-<li> added delay option for slow printing
 
 
 
