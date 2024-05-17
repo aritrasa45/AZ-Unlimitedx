@@ -49,7 +49,7 @@ time.sleep(0.5)
 a=int(input("input how many numbers \n you want to print   : "))
 time.sleep(0.5)
 
-z= input("Do you want to countinue!?")
+z= input("Do you want to countinue!?  : ")
 time.sleep(0.5)
 
 input_close(z)
