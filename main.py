@@ -1,5 +1,5 @@
 # all rights reserved to the owner
-#take permissionbefore use
+#take permission before use
 import time
 from colorama import Fore,Style, Back, init
 
@@ -18,17 +18,33 @@ def print_opreation(num,a):
     while(num<a):
     	print(num)
     	num= num + 1	
+    	
+def print_slow(num,a):
+    	while(a>num):
+    		print(num)
+    		num= num + 1
+    		time.sleep(0.2)
+   
+    			
+    		
+def timer(m):
+     	while(m>0):
+     		print("Printing in",m,"seconds",end='\r')
+     		time.sleep(1)
+     		m = m -1
+     		if(m==0):
+     		     	print("\n starting....")     	
+     		     	
+         		
     		
 time.sleep(0.3)
-print(Fore.GREEN + """ 
-________  ________      
+print(Fore.GREEN + """________  ________      
 |\   __  \|\   ____\     
 \ \  \|\  \ \  \___|_    
- \ \   __  \ \_____  \               
+ \ \   __  \ \_____  
   \ \  \ \  \|____|\  \  
    \ \__\ \__\____\_\  \ 
     \|__|\|__|\_________\
-             
                          
 """)
 print(Style.RESET_ALL)	
@@ -44,16 +60,33 @@ input_close(x)
 time.sleep(0.5)
 
 num=int(input("enter from which you want to start number  : "))
+
 time.sleep(0.2)
 print("ok")
 time.sleep(0.5)
 
 a=int(input("input how many numbers \n you want to print   : "))
+
 time.sleep(0.5)
 
-z= input("Do you want to countinue!?  : ")
+z= input("Do you want to continue?[Y/n]")
 time.sleep(0.5)
+l= input("Do you need print Delays? \n [Y/n]")
 
-input_close(z)
-print_opreation(num,a)
-  							
+if(l!='y'):
+	print_opreation(num,a)
+	print(Style.BRIGHT+"Thank You")
+	print(Style.RESET_ALL)
+	
+else:
+	print(Fore.RED+"Note: Its in early stage")
+	print(Style.RESET_ALL)
+	time.sleep(0.2)
+	print(Fore.GREEN+"you can change the timer of code!")
+	print(Style.RESET_ALL)
+	e= 10
+	timer(e)
+	print_slow(num,a)
+	print(Style.BRIGHT+"Thank You")
+	print(Style.RESET_ALL)
+
