@@ -1,8 +1,8 @@
 
 # AZ-Unlimitedx v2 🤩
-<h1>
+<h2>
 This code is a simple number generator program that allows the user to input a starting number and how many numbers they want to print.
-</h1>
+</h2>
 
 <h2>Usage of it? -🦸</h2>
 
@@ -34,17 +34,61 @@ def input_close(x):
 
 ```
 2. The print_opreation(num, a) function prints numbers starting from num up to a.
+```jsx
+def print_opreation(num,a):
+    while(num<a):
+    	print(num)
+    	num= num + 1	
 
-3. The code prints a welcome message with a green color using Fore.GREEN from the colorama library.
+```
 
-4. It asks the user if they want to continue and takes their input. If the input is not 'y', it prints an error message and exits. If it is 'y', the program continues.
+4. The code prints a welcome message with a green color using Fore.GREEN from the colorama library.
+```jsx
+print(Fore.GREEN + """ 
+________  ________      
+|\   __  \|\   ____\     
+\ \  \|\  \ \  \___|_    
+ \ \   __  \ \_____  \               
+  \ \  \ \  \|____|\  \  
+   \ \__\ \__\____\_\  \ 
+    \|__|\|__|\_________\
+             
+                         
+""")
+print(Style.RESET_ALL)	
+```
+5. It asks the user if they want to continue and takes their input. If the input is not 'y', it prints an error message and exits. If it is 'y', the program continues.
+```jsx
+x=input(Fore.RED + "do u want to continue? \n [y/n]")
+print(Style.RESET_ALL)  
+input_close(x)
+```
 
-5. It then asks the user for 'a" input for  starting number and 'num' input for how many number the user want to print from 'a' to 'sum'.
+7. It then asks the user for 'a" input for  starting number and 'num' input for how many number the user want to print from 'a' to 'sum'.
+```jsx
+num=int(input("enter from which you want to start number  : "))
+time.sleep(0.2)
+print("ok")
+time.sleep(0.5)
 
-6. After getting the input, it asks the user if they want to continue, similar to step 5.
+a=int(input("input how many numbers \n you want to print   : "))
+time.sleep(0.5)
+```
 
-7. If the user input is 'y', it calls the print_opreation function to generate and print the numbers starting from the given starting number.
+9. After getting the input, it asks the user if they want to continue, similar to step 5.
+```jsx
+z= input("Do you want to countinue!?  : ")
+time.sleep(0.5)
+input_close(z)
+```
 
+10. If the user input is 'y', it calls the print_opreation function to generate and print the numbers starting from the given starting number.
+```
+def print_opreation(num,a):
+    while(num<a):
+    	print(num)
+    	num= num + 1
+```
 
 
 
