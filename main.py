@@ -1,5 +1,6 @@
 # all rights reserved to the owner
-#take permissionbefore useimport time
+#take permissionbefore use
+import time
 from colorama import Fore,Style, Back, init
 
 init()
