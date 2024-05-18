@@ -116,7 +116,10 @@ To contract admin for usage and permission[Telegram](https://telegram.me/zsxxsz1
 
 
  
- <h3>Install on terminal 🛰️</h3>
+ 
+<h3 align="center">
+  Install On Terminal
+</h3>
 <li>avalable on every terminal with latest pip and python installed</li>
 
 git clone https://github.com/aritrasa45/AZ-Unlimitedx.git
@@ -130,7 +133,10 @@ git clone https://github.com/aritrasa45/AZ-Unlimitedx.git
 
 
 
-<h3>Update Reposetory 👇</h3>
+
+<h3 align="center">
+  Update Repo
+</h3>
 <br>
 <pre>git pull </pre>
 
