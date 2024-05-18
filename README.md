@@ -83,7 +83,7 @@ input_close(z)
 ```
 
 10. If the user input is 'y', it calls the print_opreation function to generate and print the numbers starting from the given starting number.
-```
+```jsx
 def print_opreation(num,a):
     while(num<a):
     	print(num)
