@@ -3,15 +3,16 @@
   AZ-Unlimitedx v2 🤩
 </h1>
 
-<p align="center">
-  <img src="https://github.com/aritrasa45/AZ-Unlimitedx/blob/main/Screenshot.jpg" height="400px"/>
-</p>
+
 
 
  
 <h2>
 This code is a simple number generator program that allows the user to input a starting number and how many numbers they want to print.
 </h2>
+<p align="center">
+  <img src="https://github.com/aritrasa45/AZ-Unlimitedx/blob/main/Screenshot.jpg" height="200px"/>
+</p>
 
 <h2>Usage of it? -🦸</h2>
 
