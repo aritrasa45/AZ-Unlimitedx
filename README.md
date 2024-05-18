@@ -1,6 +1,6 @@
 
 # AZ-Unlimitedx v2 🤩
- <img width="100px" src="https://github.com/aritrasa45/AZ-Unlimitedx/blob/main/Screenshot.jpg" align="center" alt="AZ-Unlimitedx" />
+ <img width="500px" src="https://github.com/aritrasa45/AZ-Unlimitedx/blob/main/Screenshot.jpg" align="center" alt="AZ-Unlimitedx" />
 <h2>
 This code is a simple number generator program that allows the user to input a starting number and how many numbers they want to print.
 </h2>
