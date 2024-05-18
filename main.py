@@ -1,5 +1,5 @@
-#made by aritrasa.Redphoenix(co-lead)
-import time
+# all rights reserved to the owner
+#take permissionbefore useimport time
 from colorama import Fore,Style, Back, init
 
 init()
