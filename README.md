@@ -14,11 +14,10 @@ This code is a simple number generator program that allows the user to input a s
 <h3>Breakdown of the code -🥌</h3>
 
 1. The code uses the time module for time-related functions and the colorama library for adding color to the output.
-'''
-import time
+'''import time
 from colorama import Fore,Back,Style,init
-init()
-'''
+init()'''
+
 1. The input_close(x) function checks if the user input is 'y'. If it is not 'y', it prints an error message, waits for a short duration, then exits the program. If the input is 'y', it continues 
 
 2. The print_opreation(num, a) function prints numbers starting from num up to a.
