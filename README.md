@@ -21,7 +21,18 @@ init()
 ```
 
 1. The input_close(x) function checks if the user input is 'y'. If it is not 'y', it prints an error message, waits for a short duration, then exits the program. If the input is 'y', it continues 
+```jsx
+def input_close(x):
+	if(x!='y'):
+		print("wrong input")
+		time.sleep(0.2)
+		print("closing...")
+		time.sleep(0.2)
+		exit(1)
+	else:
+		pass	
 
+```
 2. The print_opreation(num, a) function prints numbers starting from num up to a.
 
 3. The code prints a welcome message with a green color using Fore.GREEN from the colorama library.
