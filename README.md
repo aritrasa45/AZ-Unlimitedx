@@ -11,7 +11,7 @@
 This code is a simple number generator program that allows the user to input a starting number and how many numbers they want to print.
 </h2>
 <p align="center">
-  <img src="https://github.com/aritrasa45/AZ-Unlimitedx/blob/main/Screenshot.jpg" height="200px"/>
+  <img src="https://github.com/aritrasa45/AZ-Unlimitedx/blob/main/20240519_003036.jpg" height="200px"/>
 </p>
 
 <h2>Usage of it? -🦸</h2>
@@ -50,7 +50,7 @@ init()
 <li>Define a Function to Handle Incorrect Input: </li>
 
 ```jsx
-def your_error_handler(x):
+def your_error_handler(x,y,z):
 ```
 
 - input_close(x) checks if the input x is not equal to 'y' and prints error messages before exiting the program.
