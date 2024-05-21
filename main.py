@@ -1,4 +1,6 @@
-#AritrasA
+# by aritrasa 
+# contract, instagram - 0aritrasa1
+
 import time
 import random
 from colorama import Fore,Style, Back, init
@@ -10,7 +12,8 @@ def input_close(x):
 		print("wrong input")
 		time.sleep(0.2)
 		print("closing...")
-		time.sleep(0.2)
+		time.sleep(2)
+		os.system('clear')
 		exit(1)
 	else:
 		pass	
@@ -35,14 +38,11 @@ def timer(m):
      		m = m -1
      		if(m==0):
      		     	print("\n starting....")     	
-     		     	
 
 
-def clear_terminal():
-	os.system('cls' if os.name == 'nt' else 'clear')
-def main():
-	clear_terminal()
-	
+	     		  
+
+
 
 time.sleep(0.3)
 print(Fore.GREEN + """________  ________      
@@ -86,6 +86,9 @@ if(sum3=='2'):
 	if(random1==random2):
 		time.sleep(0.4)
 		print(Back.RED+Style.BRIGHT,random1,"cannot be same in low to high radiates")
+		print("Exitting...")	
+		time.sleep(2)
+		os.system('clear')
 		exit(1)
 	time.sleep(0.4)
 	xy= input("Do you need delays? [Y/n]  : ")
@@ -109,7 +112,10 @@ elif(sum3=='1'):
 	if(num==a):
 		time.sleep(0.4)
 		print("number cannot be same ")
-		time.sleep(0.5)
+		time.sleep(0.4)
+		print("exitting...")
+		time.sleep(3)
+		os.system('clear')
 		exit(1)
 	z= input("Do you want to continue?[Y/n]  : ")
 	time.sleep(0.5)
@@ -146,6 +152,18 @@ time.sleep(0.4)
 print("python main.py")				
 
 
-if __name__ == '__main__':
-  main()
-			
+
+def function(time8):
+     		while(time8>0):
+     			print(" leaving in",time8,"seconds",end='\r')
+     			time.sleep(1)
+     			time8 = time8 -1
+     			if(time8==0):
+     				print("\n leaving....")
+     				time.sleep(2)
+     				os.system('clear')     
+     					
+
+time8= 300
+
+function(time8)
