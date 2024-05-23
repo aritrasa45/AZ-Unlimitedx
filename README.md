@@ -21,11 +21,14 @@ This code is a simple number generator program that allows the user to input a s
 <li>Overall, this code is a simple but functional number generator program. It can be used to generate a sequence of numbers for various purposes, such as testing or debug</li>
 
 > [!IMPORTANT]
-> <li>new update 21st march 24</li>
-> Now it can print certain amount of random number from the limited radiant set by user.
-> major error handlings and bugs fixes
-> added auto clear after 2 second if any user gives wrong input
-> added 300 secs of live countdown in the tool when the user id done with it..if the 300 secs passes then it will automaticly clear & end the terminal process
+> <h4>new update 21st march 24</h4>
+>
+<li>Now it can print certain amount of random number from the limited radiant set by user.</li>
+	
+><li>major error handlings and bugs fixes
+> added auto clear after 2 second if any user gives wrong input</li>
+	
+> <li>added 300 secs of live countdown in the tool when the user id done with it..if the 300 secs passes then it will automaticly clear & end the terminal process</li>
 
 
 
