@@ -21,7 +21,7 @@ This code is a simple number generator program that allows the user to input a s
 <li>Overall, this code is a simple but functional number generator program. It can be used to generate a sequence of numbers for various purposes, such as testing or debug</li>
 
 > [!IMPORTANT]
-> <h4>new update 21st march 24</h4>
+> <h4>new update 1st june 24</h4>
 >
 <li>Now it can print certain amount of random number from the limited radiant set by user.</li>
 >	
