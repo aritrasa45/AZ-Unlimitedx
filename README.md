@@ -29,7 +29,7 @@ This code is a simple number generator program that allows the user to input a s
 > added auto clear after 2 second if any user gives wrong input</li>
 >	
 > <li>added 300 secs of live countdown in the tool when the user id done with it..if the 300 secs passes then it will automaticly clear & end the terminal process</li>
->
+>>
 
 
 <h3>Breakdown of the code -🥌</h3>
