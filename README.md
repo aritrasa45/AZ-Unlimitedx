@@ -11,7 +11,7 @@
 This code is a simple number generator program that allows the user to input a starting number and how many numbers they want to print.
 </h2>
 <p align="center">
-  <img src="https://github.com/aritrasa45/AZ-Unlimitedx/blob/main/20240519_003036.jpg" height="200px"/>
+  <img src="https://github.com/aritrasa45/AZ-Unlimitedx/blob/main/Screenshot/VideoCapture_20240602-143121.jpg" height="200px"/>
 </p>
 
 <h2>Usage of it? -🦸</h2>
