@@ -1,28 +1,45 @@
 # by aritrasa 
 # contract, instagram - 0aritrasa1
+# alawys give credits by typing @0aritrasa1
+# if using 
 
-import time
+
 import time
 import random
 from colorama import Fore,Style, Back, init
 import os
 import sys
 import platform
+import hashlib
 
 
-init()
+init(autoreset=True)
 os_info = platform.system()
 
+def add(a,b):
+	return a+b
+	
+def substract(a,b):
+	return a-b
+	
+def division(a,b):
+	if b== 0:
+		print("• you can't divide by 0 !!")
+		return 0
+	else:
+		return a/b
+		
+def multiply(a,b):
+	return a*b
 
-
-def input_close(x):
-	if(x!='y'):
+def input_close(a):
+	if(a!='y'):
 		print("wrong input")
 		time.sleep(0.2)
 		print("closing...")
 		time.sleep(2)
 		os.system('clear')
-		exit(1)
+		sys.exit()
 	else:
 		pass	
 
@@ -39,12 +56,12 @@ def print_slow(num,a):
    
 def timer(m):
      	while(m>0):
-     		print("  Printing in",m,"seconds",end='\r')
+     		print(f"  Printing in {m} seconds",end='\r')
      		time.sleep(1)
      		m = m -1
      		if(m==0):
-     		     	print(Fore.BLUE+"starting....",end='                         ')     
-     		     	print(Style.RESET_ALL)	
+     		     	print(f"{Fore.BLUE}starting....",end='                         ')     
+     		     		
 
 def function(time8):
      		while(time8>0):
@@ -59,14 +76,14 @@ def function(time8):
 def error_handler(num2,a):
 	if(num2>a):
 		time.sleep(0.5)
-		print(f"{Fore.GREEN}Wrong input, {Fore.BLUE} choose another optipn for sub count")	
+		print(f"{Fore.RED}Wrong input, {Fore.BLUE} choose another optipn for sub count")	
 		time.sleep(0.5)
-		exit(1)
+		sys.exit()
 		time.sleep(0.5)
 		os.system('clear')	     					   					
 	     		  
 time.sleep(0.3)
-print(f"""{Fore.GREEN}________  ________      
+print(f"""{Fore.CYAN}________  ________      
 |\   __  \|\   ____\     
 \ \  \|\  \ \  \___|_    
  \ \   __  \ \_____  
@@ -78,39 +95,35 @@ print(f"""{Fore.GREEN}________  ________
 print(Style.RESET_ALL)	
 time.sleep(0.5)
 
-print(f"{Style.BRIGHT}Hello {os_info} user & welcome to  number generrator \n {Fore.YELLOW}V3")
-print(Style.RESET_ALL)
+print(f"{Style.BRIGHT}Hello {os_info} user & welcome to  number generrator V3")
 time.sleep(0.5)
 
-print(Fore.BLUE,"Testing the platform",end='\r')
+print(f"{Fore.BLUE}Testing the platform",end='\r')
 
-time.sleep(3)
+time.sleep(1)
 print("Done",end='                              ')
 
-print(Style.RESET_ALL)
 
 if os_info=='Windows':
 	time.sleep(0.5)
 	os.system('clear')
 	print(f"{Style.BRIGHT}{Back.RED}windows user detected")
 	time.sleep(0.3)
-	print(Style.RESET_ALL)
-	exit(1)
-	
+	sys.exit()
 else:
 	pass	
 
-
-x=input(Fore.RED + "do u want to continue? \n [y/n]  : ")
-print(Style.RESET_ALL)  
+time.sleep(0.5)
+x=input(f"{Fore.RED}do you want to continue? \n [y/n]  : ")
 input_close(x)
 time.sleep(0.5)
 
-print(f"{Fore.GREEN}1:Print ascend number from input \n 2: Print random number ")
+print(f"{Fore.CYAN}[1]:Print ascend number from input\n{Fore.YELLOW}[2]: Print random number")
+
+print(f"{Fore.GREEN}[3]: calculator\n{Fore.MAGENTA}[4]:Sha256 Comment hash")
 
 
-print(Style.BRIGHT,"choose mode")
-print(Style.RESET_ALL)
+print(f"{Style.BRIGHT}choose mode")
 time.sleep(0.5)
 
 sum3= input(" Enter your choice  : ")
@@ -131,7 +144,7 @@ if(sum3=='2'):
 		print("Exitting...")	
 		time.sleep(2)
 		os.system('clear')
-		exit(1)
+		sys.exit()
 	time.sleep(0.4)
 	xy= input("Do you need delays? [Y/n]  : ")
 
@@ -166,32 +179,60 @@ elif(sum3=='1'):
 		print("exitting...")
 		time.sleep(3)
 		os.system('clear')
-		exit(1)
+		sys.exit()
 	z= input(f"{Fore.RED}Do you want to continue?[Y/n]  : ")
-	print(Style.RESET_ALL)
 	time.sleep(0.5)
 	input_close(z)
 	
 
 	l= input(f"{Fore.GREEN}Do you need print Delays? \n [Y/n]  : ")
-	print(Style.RESET_ALL)
 	if(l!='y'):
 		print_opreation(num,a)
-		print(Style.BRIGHT+"Thank You")
-		print(Style.RESET_ALL)
+		print(f"{Style.BRIGHT}Thank You")
 
 	else:
 		print(Fore.RED+"Note: Its in early stage")
-		print(Style.RESET_ALL)
 		time.sleep(0.2)
-		print(Fore.GREEN+"you can change the timer of code!")
-		print(Style.RESET_ALL)
+		print(f"{Fore.GREEN}you can change the timer of code!")
 		e= 10
 		timer(e)
 		print_slow(num,a)
-		print(Style.BRIGHT+"Thank You")
-		print(Style.RESET_ALL)
+		print(f"{Style.BRIGHT}Thank You")
+		
+				
+elif sum3 =='3':
+	while True:
+		x = int(input("\n• Enter first number  : "))
+		y = int(input("• Enter second number  : "))	
 	
+		print(f"\n{Style.BRIGHT}▪︎ Select options{Style.RESET_ALL}\n{Fore.GREEN}\n[1]: Addition{Fore.BLUE}\n[2]: substraction{Fore.CYAN}\n[3]: Multiplication{Fore.MAGENTA}\n[4]: Division")
+	
+		z = input("Enter : ")
+		if z == '1':
+			print(f"{Fore.GREEN}The addition is",add(x,y))
+	
+		elif z == '2':
+			print(f"{Fore.BLUE}The substraction is",substract(x,y))
+		
+		elif z == '3':
+			print(f"{Fore.CYAN}The multiplication is",multiply(x,y))		
+	
+		elif z == '4':
+			print(f"{Fore.MAGENTA}The Division is",division(x,y))
+		
+     
+
+		else:
+		      print(f"{Fore.RED}Wrong input")
+		      break
+	
+	
+elif sum3=='4':
+	password = input(f"{Fore.MAGENTA}Enter password to hash  :  ")
+	hash_object = hashlib.sha256(password.encode())
+	print('\n',hash_object.hexdigest())
+
+
 
 else:
 	print("wrong choice")
@@ -199,22 +240,17 @@ else:
 	print("leaving....")
 	time.sleep(3)
 	os.system('clear')
-	exit(1)
+	sys.exit()
 
 
 time.sleep(0.4)
-print(Fore.GREEN+Style.BRIGHT+"Thank you for using")  
+print(f"\n{Fore.GREEN}Thank you for using")  
 time.sleep(0.4)
-
-print(Style.BRIGHT+"To run again")
-print(Style.RESET_ALL)
-time.sleep(0.4)
-print("python main.py")				
-
-
-
+			
 time8= 60
 function(time8)
+
+			
 
 			
 
