@@ -23,12 +23,11 @@ This code is a simple number generator program that allows the user to input a s
 > [!IMPORTANT]
 > <h4>new update 1st june 24</h4>
 >
-<li>Now it can print certain amount of random number from the limited radiant set by user.</li>
+<li>added advanced calculator</li>
 >	
-><li>major error handlings and bugs fixes
-> added auto clear after 2 second if any user gives wrong input</li>
+><li>major error handlings and bugs fixes</li>
 >	
-> <li>added 300 secs of live countdown in the tool when the user id done with it..if the 300 secs passes then it will automaticly clear & end the terminal process</li>
+> <li>added sha256 hasing tool under it</li>
 >>
 
 
