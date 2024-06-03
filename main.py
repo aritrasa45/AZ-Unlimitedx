@@ -114,7 +114,7 @@ else:
 	pass	
 
 time.sleep(0.5)
-x=input(f"{Fore.RED}do you want to continue? \n [y/n]  : ")
+x=input(f"{Fore.RED}\n do you want to continue? \n [y/n]  : ")
 input_close(x)
 time.sleep(0.5)
 
