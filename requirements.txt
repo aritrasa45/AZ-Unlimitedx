@@ -3,3 +3,4 @@ random
 colorama
 sys
 os
+hashlib
